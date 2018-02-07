@@ -14,27 +14,37 @@
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 16px;
     color: rgb(12, 12, 12);
     display: block;
     font-style: normal;
     text-decoration-style: double;
-    text-align: justify;
+    text-align: start;
     text-justify: newspaper;
-    -ms-text-justify: distribute;
+    -ms-text-justify:auto; align-self: auto;
+    border-bottom-style: ridge;
+    border-bottom-left-radius: 2cm;
+    align-content: flex-end;
+    align-content: center;
+    align-self: auto;
+    line-height: 1cm;
+    width: 9cm;
 }
 
 .sidenav a:hover {
     color: blueviolet;
     text-decoration-color: brown;
+    -ms-zoom-animation: none;
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale((1.5);
+    -o-transform:scale((1.5);
+    transform:scale((1.5);
+    
+
    
 }
 
 
-
-
-
-}
 
 .footer{
     padding-top: 7cm;
