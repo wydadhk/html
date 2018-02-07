@@ -14,22 +14,29 @@
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
-    color: rgb(240, 118, 240);
+    font-size: 10px;
+    color: rgb(12, 12, 12);
     display: block;
+    font-style: normal;
+    text-decoration-style: double;
+    text-align: justify;
+    text-justify: newspaper;
+    -ms-text-justify: distribute;
 }
 
 .sidenav a:hover {
-    color: #a11277;
+    color: blueviolet;
+    text-decoration-color: brown;
+   
 }
 
-.main {
-    margin-left: 140px;  
-    font-size: 28px; 
-    padding: 0px 10px;
+
+
+
+
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-
+.footer{
+    padding-top: 7cm;
+    padding-left: 7cm;
+}
